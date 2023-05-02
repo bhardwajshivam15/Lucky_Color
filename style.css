@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+.con{
+    background-color:white;
+    z-index: 200;
+    margin: 1rem;
+    padding-top: 1rem;
+    margin: auto;
+    min-height: 100vh;
+    width: 80%;
+    border: 2px solid black;
+}
+h1{
+   background-color: rgb(61, 61, 61);
+    text-align: center;
+}
+.con button{
+    margin-left: .5rem;
+    margin-top: 1rem;
+    background-color: rgb(43, 43, 43);
+    cursor: pointer;
+    outline: none;
+    height: 2.3rem;
+    border: none;
+    width: 14rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+}
+.con button:hover{
+    transition: all .2s;
+    background-color: rgb(39, 7, 153);
+}
+select{
+    border-radius: .3rem;
+    background-color: black;
+    width: 14rem;
+    height: 2.3rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+}
